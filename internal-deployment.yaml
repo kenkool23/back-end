@@ -16,7 +16,7 @@ spec:
         app: events-internal
     spec:
       containers:
-      - image: kenkool23/internal-event:v1
+      - image: kenkool23/internal-event:latest
         name: events-internal
         imagePullPolicy: "Always"
         resources:

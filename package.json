@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "coverage": "sonar-scanner",
     "start": "node server.js",
     "test": "nyc mocha --exit"
   },
